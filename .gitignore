@@ -1,0 +1,45 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais (inclusive venv local)
+venv/
+.env/
+.venv/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+
+
+# Arquivos de configuração do editor
+.vscode/
+*.code-workspace
+
+# Arquivos de log
+*.log
+
+# Dependências (se for usar pip freeze > requirements.txt)
+*.egg-info/
+dist/
+build/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Testes/coverage
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Arquivos do Jupyter
+.ipynb_checkpoints
+
+# Arquivos de cache do pip
+pip-log.txt
+pip-delete-this-directory.txt
